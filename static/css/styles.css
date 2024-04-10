@@ -1,0 +1,141 @@
+/* Styles for Restaurant Kebab website */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    background-attachment: fixed; /* Background fixe */
+    color: #ffffff; /* Couleur de police globale */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.418); /* Fond semi-transparent */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav li {
+    color: #ffffff; /* Couleur du texte en blanc */
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    font-weight: bold; /* Optionnel : mise en évidence du texte */
+    text-transform: uppercase; /* Optionnel : mise en majuscules du texte */
+}
+
+nav ul li a {
+    text-decoration: none; /* Désactiver le soulignement */
+    color: #ffffff; /* Couleur du texte en blanc */
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    text-align: center; /* Centrer le texte */
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+    padding: 20px 0;
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+    margin-top: 40px;
+    font-size: 2.5em;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.7); /* Fond blanc transparent */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px; /* Espacement entre les cartes */
+}
+
+
+p {
+    color: #000000;
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.menu-category {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.category-title {
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.menu-items-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-item {
+    background-color: rgba(255, 255, 255, 0.7); /* Fond blanc transparent */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(45% - 20px); /* Largeur de chaque carte avec un espace entre les colonnes */
+    margin: 10px;
+}
+
+.menu-item h4 {
+    color: #000000; /* Couleur du texte en noir */
+}
+
+.menu-item p {
+    color: #000000; /* Couleur du texte en noir */
+}
+
+/* Styles for Contact Card */
+.contact-card {
+    background-color: rgba(255, 255, 255, 0.76);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.contact-card h2 {
+    text-decoration: underline;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.contact-card p {
+    color: #000000;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-list li {
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 10px;
+}
